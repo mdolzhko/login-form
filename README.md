@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+# Vite + React + TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working in Vite.
 
-Currently, two official plugins are available:
+# Start with login form:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- npm install
+- npm run dev (http://localhost:5173/)
 
-## Expanding the ESLint configuration
+##
+> Styling with Tailwind:
+>
+> Allows you to quickly and easily create styles without the need to write complex CSS selectors.
+> 
+> Easy to use. In this case, ready-made templates for form components were used.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+##
+> Form validation with __Zod__:
+>
+> __Zod__ is a __TS__ data validation lib.
+> 
+> Provides a simple and convenient way to define a data schema and verify that it conforms to that schema.
+>
+> The main advantages of Zod include:
+>
+> - Declarative Syntax
+> - TypeScript support
+> - Flexibility
+> - Speed
 
-- Configure the top-level `parserOptions` property like this:
+##
+> __React Hook Form__:
+>
+> Is a powerful and convenient tool for working with forms in React applications. 
+>
+> Allows you to simplify the process of managing forms.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+##
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+
+
